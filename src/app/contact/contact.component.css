@@ -1,0 +1,132 @@
+.mains {
+    font-family: Arial, sans-serif;
+    background-image: url(../../assets/pexels-monkeytactics-751268.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 800px;
+  margin-left: 15%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  color: #053053;
+  margin-bottom: 20px;
+}
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-card {
+  background-color: #deeff6;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.contact-card h2 {
+  color: #053053;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+h1 {
+  text-align: center;
+  color: #0e0101;
+}
+
+.footer{
+    
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    height:30%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: rgb(6, 6, 6);
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .header p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .header nav {
+    margin-top: 0; /* Adjusted to align with the header */
+  }
+  
+  .header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .header nav a:hover {
+    text-decoration: underline;
+  }
+  .header .logo {
+    height: 10px; 
+    margin-right: 20px; 
+  }
+
+
+
+
+
+.address-container {
+    max-width: 350px;
+    margin: 5px auto;
+    padding: 10px;
+    
+    border-radius: 5px;
+    text-align: center;
+}
+.address-container h2 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.address-container p {
+    font-size: 18px;
+    color: whitesmoke;
+    margin: 5px 0;
+}
